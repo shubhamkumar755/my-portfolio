@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/6f3287d01b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <!-- <img src="zef1.jpg"> -->
+        <div class="container">
+            <nav>
+                <h1 id="logo">Porfolio.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Works</a></li>
+                    <li><a href="#services">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark menu" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars menu" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Shubham kumar</span>,</h1>
+                <p>a Computer Science student at VIT, Vellore. I am
+                eager to apply my skills in professional settings.</p>
+            </div>
+            <div class="social-icons">
+                <a href="http://www.linkedin.com/in/shubham-kumar-142a13278" target="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/_shubhamxkumar_?igsh=MWxqbW80bTZzcGprMw==" target="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/shubhamkumar755" target="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+
+<!--------------------about---------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <!-- <img src="zef1.jpg"> -->
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I’m driven by the thrill of discovery and the joy of problem-solving. Whether it’s untangling a tricky bug in my code or
+                        exploring the latest advancements in machine learning, I thrive on the challenge and excitement of technology. My goal
+                        is to harness this passion to create tools and applications that not only solve problems but also inspire others to
+                        explore the world of tech.<br><br>
+                    
+                        Thank you for visiting my portfolio. Feel free to explore my projects, and don’t hesitate to reach out if you’d like
+                        to
+                        connect or collaborate on exciting tech ventures!
+                    </p><br>
+                    <div class="cv">
+                        <a href="myresume.pdf" download><p>Download my CV</p></a>
+                        <!-- <i class="fa-solid fa-download"></i> -->
+                    </div>
+
+                </div>
+                <div class="about-col-2">
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>C++, Java, Javascript, Python, C</li>
+                            <li><span>Frontend Technologies</span><br>HTML, CSS, Bootstrap, ReactJs</li>
+                            <li><span>Database</span><br>SQL</li>
+                            <li><span>Other tools</span><br>Figma, Git, Github</li>
+
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents"id="experience">
+                        <ul>
+                            <li><span>2004-2010</span><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, quibusdam?</li>
+                            <li><span>2012-2020</span><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, quibusdam?</li>
+                            <li><span>2020-current</span><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, quibusdam?</li>
+                        </ul>
+                    </div> -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>VIT, Vellore</span><br>Bachelor of Technology, Grade:9.04, <br>2022-2026</li>
+                            <li><span>Delhi Public School, Patna</span><br>Higher Secondary School Certificate, Percenatge: 94,<br> Passing year: 2022</li>
+                            <li><span>Delhi Public School, Patna</span><br>Secondary School certificate, percentage: 96, <br>Passing year: 2020</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!----------------------services-------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Certificates</h1>
+            <div class="services-list">
+                <div class="cert1">
+                    <!-- <i class="fa-solid fa-code"></i> -->
+                    <h2>Microsoft Azure AI</h2>
+                    <p>This
+                    certification has equipped me with a solid understanding of the core concepts and services in artificial intelligence
+                    (AI) and how they can be implemented using Microsoft Azure.</p>
+
+                </div>
+                <div class="cert2">
+                    <!-- <i class="fa-solid fa-crop"></i> -->
+                    <h2>Technica'23</h2>
+                    <p>Participating in the Technica hackathon enhanced my technical skills and problem-solving abilities while providing
+                    valuable networking opportunities and inspiration for innovative projects.</p>
+    
+                </div>
+                <!-- <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Frontend</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto error omnis accusamus velit eum minima!</p>
+                    <href="#">Learn more</href>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-------------portfolio---------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="nexus.png">
+                    <div class="layer">
+                        <h3>Project Nexus</h3>
+                        <p>A student-centric website for reconnecting lost items and fostering skill synergy connections.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="work">
+                    <img src="nexus.png">
+                </div>
+                <div class="work">
+                    <img src="nexus.png">
+                </div> -->
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-------------------------------contact---------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>shubhamkr77555@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+917257912483</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="myresume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <div id="msg"></div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Made by Shubham kumar</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");  
+        }
+    </script>
+
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu()
+        {
+            sidemenu.style.right="0";
+        }
+        function closemenu()
+        {
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyCPG2IOscYi9VnFDZksBWXa9AOum6JbDejlgj5vbJpYHnURBzmHTwAqGgELnhCwz9qFg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML="Message sent successfully!"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
